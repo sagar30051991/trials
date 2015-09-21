@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include trial *.css
+recursive-include trial *.csv
+recursive-include trial *.html
+recursive-include trial *.ico
+recursive-include trial *.js
+recursive-include trial *.json
+recursive-include trial *.md
+recursive-include trial *.png
+recursive-include trial *.py
+recursive-include trial *.svg
+recursive-include trial *.txt
+recursive-exclude trial *.pyc
